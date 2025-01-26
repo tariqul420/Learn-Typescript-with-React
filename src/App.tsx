@@ -3,6 +3,8 @@ import User from './components/User';
 import UserDemo from './components/UserDemo';
 import Button from './components/Button';
 import Post from './components/Post';
+import ButtonStyle from './components/ButtonStyle';
+import Counter from './components/Counter';
 
 const userDemo = [
   {
@@ -34,6 +36,11 @@ function App() {
       <Button>Click Me</Button>
 
       <Post />
+
+      {/* use css style props */}
+      <ButtonStyle btnStyle={{ background: 'red', margin: '1rem' }} />
+
+      <Counter />
     </>
   );
 }
