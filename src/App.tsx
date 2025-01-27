@@ -40,6 +40,7 @@ function App() {
       {/* use css style props */}
       <ButtonStyle btnStyle={{ background: 'red', margin: '1rem' }} />
 
+      {/* use useState hook */}
       <Counter />
     </>
   );
